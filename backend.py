@@ -29,7 +29,7 @@ def encode(original):
 
     encoded=bs.b64encode(bytes(final,"ascii"))
 
-    print(encoded)
+    
     return(encoded)
     
 
@@ -74,13 +74,6 @@ def decode(encodedx):
     for x in ori:
         f=f+ori[count]
         count=count-1
-    print(f)
+    
     return(f)
 
-encode("hello bro")
-
-
-
-
-
-decode('byBscm9lYmxo')
