@@ -3,7 +3,7 @@ import base64 as bs
 
 
 def encode(original):
-    original=str(original)
+    original=str(original).replace("\n"," * ")
     reversed=[]
 
     count=-1
