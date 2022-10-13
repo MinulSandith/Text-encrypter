@@ -21,7 +21,7 @@ Encryption of text
 
 ## Version
 
-TE-00.0001
+TE-00.0002
 
 ## Support me
 
