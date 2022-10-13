@@ -4,7 +4,7 @@
 
 ## Visit the app
 
-Link-
+Link-<https://minulsandith-text-encrypter-frontend-c6u1q8.streamlitapp.com/>
 
 ## Purpose
 
