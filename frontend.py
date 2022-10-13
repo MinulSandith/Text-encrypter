@@ -15,8 +15,7 @@ if col2.button("decode"):
         st.code(bd.decode(txt[2:][:-1]))
     except:
         st.warning("Invalid text fromat entered")
-        st.info("Encode - locking text (any text could be entered)")
-        st.info("Decode - unlocking text (only encoded text from this app could be entered)")
+        st.info("[How to use](https://github.com/MinulSandith/Text-encrypter/blob/main/README.md)")
 
 
 
