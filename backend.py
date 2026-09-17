@@ -27,17 +27,17 @@ def encode(original):
     final=set1+set2+set3
     final = ''.join([str(elem) for elem in final])
 
-    encoded=bs.b64encode(bytes(final,"ascii"))
+    encoded=bs.b64encode(bytes(final,"utf-8"))
 
-    
+
     return(encoded)
-    
+
 
 def decode(encodedx):
-    encodedx = bytes(encodedx, 'utf-8') 
-    
-    decoded=str(bs.b64decode(encodedx))[2:][:-1]
-    
+    encodedx = bytes(encodedx, 'utf-8')
+
+    decoded=bs.b64decode(encodedx).decode("utf-8")
+
 
     value1=len(decoded)//3
     value2=len(decoded)//3
