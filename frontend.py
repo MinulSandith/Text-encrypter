@@ -8,7 +8,10 @@ txt=st.text_area("Input")
 col1,col2=st.columns(2)
 
 if col1.button("encode"):
+    try:
         st.code(bd.encode(txt))
+    except Exception:
+        st.warning("Could not encode the entered text.")
 
 if col2.button("decode"):
     try:
